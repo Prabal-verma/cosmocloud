@@ -8,7 +8,7 @@ export async function middleware(req) {
 
   // If the user is not logged in and is trying to access a protected route
   if (!user && req.nextUrl.pathname !== '/sign-in' && req.nextUrl.pathname !== '/') {
-    return NextResponse.redirect(new URL('/sign-in', req.url)); // Redirect to sign-in
+    return NextResponse.redirect(new URL('/', req.url)); // Redirect to sign-in
   }
 
   // If the user is logged in and trying to access the sign-in page, redirect to home
