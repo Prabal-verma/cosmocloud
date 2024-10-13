@@ -14,8 +14,8 @@ const Logout = () => {
 
   return (
     <button 
-      onClick={handleLogout} 
-      className="mt-4 px-4 py-2 bg-red-500 text-white font-semibold rounded shadow hover:bg-red-600 transition"
+      onClick={handleGoogleSignIn} 
+      className="mt-4 px-4 py-2 bg-red-600 text-white font-semibold rounded shadow hover:bg-red-700 transition duration-200 text-lg"
     >
       Log Out
     </button>

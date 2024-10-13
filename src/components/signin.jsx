@@ -15,7 +15,7 @@ const GoogleSignIn = () => {
   return (
     <button 
       onClick={handleGoogleSignIn} 
-      className="mt-4 px-4 py-2 bg-blue-500 text-white font-semibold rounded shadow hover:bg-blue-600 transition"
+      className="mt-4 px-4 py-2 bg-blue-600 text-white font-semibold rounded shadow hover:bg-blue-700 transition duration-200 text-lg"
     >
       Sign In with Google
     </button>
